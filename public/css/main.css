@@ -1,0 +1,307 @@
+@font-face {
+  font-family: 'Cubano';
+  src: url("../css/cubano-regular-webfont.woff");
+}
+
+.z-depth-0 {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0), 0 0 0 0 rgba(0, 0, 0);
+}
+
+#backgroundVideo {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(polina.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+h2 {
+  font-weight: 300;
+}
+
+.mainText {
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: 'Nunito', cursive;
+  font-weight: 500;
+  font-size: 70px;
+}
+
+.main {
+  height: 805px;
+  background-image: url("../images/youth_sample.jpg");
+  background-size: cover;
+  background-position: center;
+  /*background: -moz-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4));
+  background: linear-gradient(rgba(0,0,0,.4),rgba(0,*/0,0,.4));
+}
+
+.about {
+  height: 20%;
+}
+
+.session {
+  height: 500px;
+  background-image: url("../images/session_picture.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.blueBanner {
+  height: 75px;
+  background-color: #1565c0;
+}
+
+.yellowBanner {
+  height: 75px;
+  background-color: #ffa726;
+}
+
+.bannerText {
+  padding-top: 22px;
+  padding-right: 20px;
+}
+
+.staff {
+  height: 600px;
+}
+
+.contact {
+  height: 500px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.join {
+  height: 500px;
+  background-color: #ffa726;
+}
+
+.teamPic {
+  height: 500px;
+  background-image: url('../images/team_picture.jpg');
+  background-size: cover;
+}
+
+.donateBtn {
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-top: 12px;
+  margin-right: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.donateBtn:hover {
+  background-color: green;
+  color: white;
+}
+
+.donateBtnBlack {
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 18px;
+  color: black;
+  padding: 15px;
+}
+
+.donateBtn2 {
+  margin-top: 40px;
+}
+
+.videoBtn {
+  margin-top: 10%;
+}
+.playVideoBtn {
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 18px;
+  color: white;
+  padding: 15px;
+  -webkit-transition: all 0.5s ease;
+}
+.playVideoBtn:hover {
+  border: 2px solid #e0e0e0;
+  opacity: 0.6;
+  transition: 0.5s ease;
+}
+.playArrowIcon {
+  position: relative;
+  top: 8px;
+}
+.volunteerBtn {
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 18px;
+  color: black;
+  padding: 15px;
+}
+
+.recognitionBtn {
+  border: 1px solid black;
+  border-radius: 6px;
+  font-size: 18px;
+  color: black;
+  padding: 10px;
+  -webkit-transition: all 0.5s ease;
+}
+
+.orangeBtn:hover {
+  transition: 0.5s ease;
+  background-color: #ffb74d;
+}
+
+.shrink {
+  line-height: 36px;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #4caf50;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #4caf50;
+  box-shadow: 0 1px 0 0 #4caf50;
+}
+
+.input-field input[type=email]:focus + label {
+  color: #4caf50;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #4caf50;
+  box-shadow: 0 1px 0 0 #4caf50;
+}
+
+.input-field input[type=textarea]:focus + label {
+  color: #4caf50;
+}
+
+.takeActionTxt {
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 140px;
+}
+
+.socialMediaHover:hover {
+  color: grey;
+}
+
+.missionStatement {
+  height: 200px;
+}
+
+.missionText {
+  margin-top: 100px;
+  font-size: 18px;
+}
+
+.cardHeighten {
+  height: 250px;
+}
+
+#observeText {
+  visibility: hidden;
+  text-align: center;
+}
+
+#observePanel {
+  background-image: url('../images/observe.jpg');
+  background-size: cover;
+  height: 260px;
+  width: 31%;
+  margin: 1%;
+}
+
+#observePanel:hover {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/observe.jpg');
+  background-size: cover;
+}
+
+#observePanel:hover #observeText {
+  visibility: visible;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+  padding-top: 75px;
+}
+
+#snacksText {
+  visibility: hidden;
+  text-align: center;
+}
+
+#snacksPanel {
+  background-image: url('../images/snacks.jpg');
+  background-size: cover;
+  height: 260px;
+  width: 31%;
+  margin: 1%;
+}
+
+#snacksPanel:hover {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/snacks.jpg');
+  background-size: cover;
+}
+
+#snacksPanel:hover #snacksText {
+  visibility: visible;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+  padding-top: 75px;
+}
+
+#parentText {
+  visibility: hidden;
+  text-align: center;
+}
+
+#parentPanel {
+  background-image: url('../images/parent.jpg');
+  background-size: cover;
+  height: 260px;
+  width: 31%;
+  margin: 1%;
+}
+
+#parentPanel:hover {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/parent.jpg');
+  background-size: cover;
+}
+
+#parentPanel:hover #parentText {
+  visibility: visible;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5));
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+  padding-top: 75px;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>180 Program</title>
+
+  <link rel="icon" href="public/images/favicon.png">
+
+  <!-- Import Google Icon Font -->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Import Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+  <!-- Compiled and minified CSS Materialize-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <!-- Site stylesheet -->
+  <link rel="stylesheet" href="public/css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+<body>
+  
+  <div class="main">
+    <div id="top" class="navbar-fixed scrollspy">
+      <nav class="nav black">
+        <div class="nav-wrapper">
+          <a href="#top" class="brand-logo center"><img src="public/images/180_logo_resized.gif"></a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a href="#why180">WHY 180?</a></li>
+            <li><a href="#ourWork">OUR WORK</a></li>
+            <li><a href="#connectWithUs">CONNECT WITH US</a></li>
+            <li><a href="#takeAction">TAKE ACTION</a></li>
+          </ul>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="shrink"><a class="donateBtn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Urban Impact is a fiscal sponsor of the 180 program" href="http://www.urbanimpactseattle.org/180program" target="_blank">DONATE</a></li>
+          </ul>          
+          <ul class="side-nav" id="mobile-menu">
+            <li><a href="#why180">WHY 180?</a></li>
+            <li><a href="#ourWork">OUR WORK</a></li>
+            <li><a href="#connectWithUs">CONNECT WITH US</a></li>
+            <li><a href="#takeAction">TAKE ACTION</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <h2 class="green-text center mainText">Motivating Youth to Change</h2>
+
+    <p class="center videoBtn">
+      <a class="playVideoBtn modal-trigger" href="#videoModal"><i class="small material-icons playArrowIcon">play_arrow</i> PLAY VIDEO</a>
+    </p>
+    <!-- add poster="example.jpg" to video for default static image -->
+    <!-- <video autoplay loop muted id="backgroundVideo">
+      <source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+    </video> -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <div class="video-container">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/IWeQr9GCIhk" frameborder="0" allowfullscreen></iframe>
+        </div>  
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="btn-floating btn-large orange lighten-1 tooltipped" data-position="left" data-tooltip="Go to Top" href="#top">
+      <i class="large material-icons">navigation</i>
+    </a>
+  </div>
+
+  <div class="container">
+
+    <div id="why180" class="about section scrollspy">
+      <h4 class="green-text">Why 180?</h4>
+      <p class="flow-text">
+        The 180 Program works to keep youth out of the juvenile justice system, bringing community leaders and prosecutors together to break the school-to-prison pipeline.  King County Prosecuting Attorney Dan Satterberg asked Doug Wheeler, a community leader, for help to reach youth in a new way. Dan recognized that the criminal justice system is not the most effective tool in addressing complex social issues including getting at the heart of why juveniles often make poor choices. Dan recognized the answer would require a new messenger that is not part of the system. 
+      </p>
+      <p class="flow-text">
+        So Doug Wheeler convened a team of community leaders to design a program with a new message to the youth that says, 'We care about you and we believe in you. We know you can do better and we will give you a path to make better choices.'  The result of that partnership is the 180 Program, a pre-filing juvenile diversion program designed to disrupt the pattern of the criminal justice system that disproportionately punishes black and brown young men, which too often leads them to long-term involvement in the criminal justice system.
+      </p> 
+    </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <p class="flow-text">
+          Of the nearly 2,000 youth who were charged and directed to King County's juvenile court system in 2014, three quarters of those were youth of color.  By helping youth of color and other youth throughout King County, the 180 Program intervenes at a critical point to remove barriers for these youth to grow, strengthens communities, and saves over $500,000 a year in tax dollars which would otherwise be spent on criminal prosecution, court costs and juvenile incarceration. To date, this partnership has diverted over 1,400 youth away from the juvenile justice system.
+        </p>
+      </div>
+      <div class="col s12 m6">
+        <table class="bordered striped">
+          <thead>
+            <tr>
+                <th data-field="race">Race/Ethnicity</th>
+                <th data-field="countyPop">County Population</th>
+                <th data-field="juvenileCourtFiling">Juvenile Court Filing</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>African American</td>
+              <td>10%</td>
+              <td>50%</td>
+            </tr>
+            <tr>
+              <td>Native American</td>
+              <td>1%</td>
+              <td>5%</td>
+            </tr>
+            <tr>
+              <td>Hispanic</td>
+              <td>14%</td>
+              <td>14%</td>
+            </tr>
+            <tr>
+              <td>Asian/Pacific Islander</td>
+              <td>18%</td>
+              <td>6%</td>
+            </tr>
+            <tr>
+              <td>Caucasian</td>
+              <td>57%</td>
+              <td>25%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  
+     
+     <div class="yellowBanner">
+       <h5 class="flow-text bannerText center">Recognized as the Best New Non-Profit of 2015 by the Seattle Met!
+       <a href="http://www.seattlemet.com/articles/2015/10/18/best-new-nonprofit-180-program" target="_blank" class="flow-text recognitionBtn orangeBtn">Learn More</a>
+       </h5>
+
+     </div>
+     <div class="session"></div>
+
+  <div class="container">
+     <div id="ourWork" class="ourWork section scrollspy">
+      <h4 class="green-text">Our Work</h4>
+      <p class="flow-text">
+        The 180 Program consists of two elements: 1) the half-day 180 Workshop and 2) Beyond 180 follow-up aftercare.  Participating youth avoid criminal prosecution by completing the 180 Workshop.  The Workshop uses an innovative and evidence-based approach to improving the culture of youth engagement by engaging inspiring representatives from the communities where youth live, many of whom experienced similar struggles as young people. Through a combination of large-group presentations, engaging ice-breaker activities, and small-group personal discussions, workshop participants learn to make better choices.
+      </p>
+      <p class="flow-text">
+        Beyond 180 provides follow-up after the Workshop to help youth apply what they learned and supports their new 180 change.  Youth voluntarily sign-up to be paired with a Community Ambassador who will walk hand-in-hand with them to access the services the need and build a personal relationship with them to encourage them to continue on a positive path.
+      </p>
+      <p class="flow-text">
+        Studies conducted by the University of Washington's Public Behavioral Health and Justice Policy division and King County's Office of Performance, Strategy and Budget show that the 180 Program is more effective than an established comparison program at reducing recidivism and addressing disproportionality. 
+      </p>
+    </div>
+    
+
+    <div class="divider"></div>
+
+    <div id="connectWithUs" class="staff section scrollspy">
+      <h4 class="green-text">Connect With Us</h4>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card grey darken-3 medium hoverable">
+            <div class="card-image">
+              <img class="activator" src="public/images/terrell.jpg">
+            </div>
+            <div class="card-content white-text">
+              <span class="card-title activator white-text">Terrell Dorsey<i class="material-icons right">more_vert</i></span>
+              <div class="card-action white-text">
+                <a class="white-text" href="#">Co-Program Director</a>
+              </div>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title">Terrell Dorsey<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this person that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+      <div class="col s12 m6">
+        <div class="card grey darken-3 medium hoverable">
+          <div class="card-image">
+            <img class="activator" src="public/images/dominique.jpg">
+          </div>
+          <div class="card-content white-text">
+            <span class="card-title activator white-text">Dominique Davis<i class="material-icons right">more_vert</i></span>
+            <div class="card-action white-text">
+              <a class="white-text" href="#">Co-Program Director</a>
+            </div>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Dominique Davis<i class="material-icons right">close</i></span>
+            <p>Here is some more information about this person that is only revealed once clicked on.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- <div id="contact" class="contact section blue-grey lighten-5 scrollspy">
+    <h4 class="green-text">Contact Us</h4>
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="textarea1" class="materialize-textarea"></textarea>
+            <label for="textarea1">Message</label>
+          </div>
+        </div>
+        <div class="row">
+          <a type="submit" class="waves-effect waves-light btn green right" ><i class="material-icons left">email</i>Email Us</a>
+        </div>
+      </form>
+    </div>
+  </div> -->
+  <div id="takeAction" class="scrollspy">
+    <h4 class="green-text">Take Action</h4>
+      <div id="getInvolved">
+        <div class="row">
+          <div id="observePanel" class="col s12 m4"> 
+            <p id="observeText" class="white-text flow-text">Observe the Workshop
+            </p>   
+          </div>
+          <div id="snacksPanel" class="col s12 m4"> 
+            <p id="snacksText" class="white-text flow-text">Donate Snacks for the Workshop
+            </p>   
+          </div>
+          <div id="parentPanel" class="col s12 m4"> 
+            <p id="parentText" class="white-text flow-text">Volunteer with the Parent Perspective
+            </p>   
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel blue darken-2 cardHeighten">
+              <span class="white-text">Mentor a Youth One-on-One
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel blue darken-2 cardHeighten">
+              <span class="white-text">Create an Internship or Job for a Youth
+              </span>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel blue darken-2 cardHeighten">
+              <span class="white-text">Lend Expertise in Grant Writing
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 m8">
+            <div class="card-panel blue darken-2 cardHeighten">
+              <span class="white-text">Provide Professional Training for Community Ambassadors and Small Group Facilitators
+              </span>
+            </div>
+          </div>
+        </div>
+     
+        <!-- <ul>
+          <li>Observe the Workshop</li>
+          <li>Donate Snacks for the Workshop</li>
+          <li>Volunteer with the Parent Perspective</li>
+          <li>Mentor a youth one-on-one</li>
+          <li>Create an internship or job for a youth</li>
+          <li>Lend expertise in grant writing</li>
+          <li>Provide professional training for Community Ambassadors and small group facilitators</li>
+        </ul> -->
+      </div>
+  </div>
+</div>
+
+<div>
+  <div class="row">
+    <div class="col s12 m6 join scrollspy">
+      <p class="takeActionTxt flow-text">Your donations help us aid youth during a crucial time that can impact the rest of their lives. Please consider joining us to help break cycles of crime.</p>
+      <p class="center donateBtn2 flow-text">
+        <a class="donateBtnBlack orangeBtn tooltipped" data-position="bottom" data-delay="50" data-tooltip="Urban Impact is a fiscal sponsor of the 180 program" href="http://www.urbanimpactseattle.org/180program" target="_blank">DONATE</a>
+      </p>
+    </div>
+    <div class="col s12 m6 teamPic hide-on-small-only">
+    </div>
+  </div>
+</div>
+
+<div class="container missionStatement">
+  <p class="missionText flow-text">
+    The 180 Program is a program of the <i>Community Leaders Round Table of Seattle (CLRS), a 501(c)(3)</i>. The mission of CLRS, emanating from Seattle's Rainier Valley, is to convene, support and advance community-based initiatives that promote justice, fairness, the collaboration of cultures and the social well-being of our children and all of its citizens and surrounding neighborhoods in King County and the world. The CLRS has currently chosen Urban Impact as its fiscal sponsor to process all donations for the 180 Program.
+  </p>
+</div>
+
+  <footer class="page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact Us</h5>
+          <p class="grey-text text-lighten-4">7728 Rainier Ave. S., Seattle, WA 98118</p>
+          <p class="grey-text text-lighten-4">Phone Number</p>
+          <p class="grey-text text-lighten-4">Email</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Stay Connected</h5>
+            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-facebook-square fa-3x socialMediaHover" aria-hidden="true"></i></a>
+            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-twitter-square fa-3x socialMediaHover" aria-hidden="true"></i></a>
+            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-instagram fa-3x socialMediaHover" aria-hidden="true"></i></a>
+            <a class="grey-text text-lighten-3" href="#!"><i class="fa fa-youtube-square fa-3x socialMediaHover" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      &copy; 2016 made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://www.jameschi.com" target="_blank">Chi Designs</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <!-- Import Font Awesome Icons -->
+  <script src="https://use.fontawesome.com/8deab95fbe.js"></script>
+  <script src="public/js/script.js"></script>
+</body>
+</html>
